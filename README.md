@@ -6,7 +6,7 @@
 - tqdm
 ## Notes
 - This is an implementation of ["Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer"](https://arxiv.org/abs/1804.06437 "").
-- First, I wanted to reproduce results of this paper, but the original codes were hard to read because i never used Theano :(. so i decided to write my own codes.
+- I implemented this for Japanese-sentence style transfer, but I do not reveal Japanese datasets because of copyright.
 ## Differences with the original paper
 - I used pre-trained word embedding of 200-dimensions [GloVe](https://nlp.stanford.edu/projects/glove/ "glove").
 - I used Adam optimizer for neural model's training. In my case, loss did not converge with Adadelta optimizer.
