@@ -9,6 +9,7 @@
 - This repository contains the results of Yelp dataset.
 - I implemented this for Japanese-sentence style transfer, but I could not reveal Japanese datasets because of copyright.
 ## Differences with the original paper
+- I deleted only one attribute marker from sentence.
 - I used pre-trained word embedding of 200-dimensions [GloVe](https://nlp.stanford.edu/projects/glove/ "glove").
 - I used Adam optimizer for neural model's training. In my case, loss did not converge with Adadelta optimizer.
 - I modified the encoder of DeleteOnly by adding embedding of contents and embedding of attribute (not concatenation).
