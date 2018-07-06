@@ -8,6 +8,7 @@
 - This is an implementation of ["Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer"](https://arxiv.org/abs/1804.06437 "").
 - This repository contains the results of Yelp dataset.
 - I implemented this for Japanese-sentence style transfer, but I could not reveal Japanese datasets because of copyright.
+- I wrote auto-regressive codes in inference, but I will soon release codes that can infer more quickly using BeamSearchDecoder.
 ## Differences with the original paper
 - I deleted only one attribute marker from sentence.
 - I used pre-trained word embedding of 200-dimensions [GloVe](https://nlp.stanford.edu/projects/glove/ "glove").
