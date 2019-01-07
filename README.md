@@ -28,4 +28,4 @@
 Generated examples are contained in datas/yelp/generate. Check it!
 ## References
 - The original codes: ["lijuncen/Sentiment-and-Style-Transfer"](https://github.com/lijuncen/Sentiment-and-Style-Transfer "")
-- I referenced codes of [Kyubyong](https://github.com/Kyubyong "") for Tensorflow coding styles.
+- I refered codes of [Kyubyong](https://github.com/Kyubyong "") for Tensorflow coding styles.
